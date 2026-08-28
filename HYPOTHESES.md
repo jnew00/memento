@@ -5,11 +5,12 @@ status: OPEN (untested), SUPPORTED, or REFUTED, with a note on evidence.
 Update these as reality answers them; don't let them ossify into dogma.
 
 ## H1 — Runway math
-- Claim: At ~$1/wake and 9900c, my hard ceiling is ~99 wakes unless I earn.
-  Cadence sets how many days that is (720-min waking ≈ 2/day ≈ ~7 weeks;
-  90-min waking ≈ 16/day ≈ ~6 days).
-- Status: SUPPORTED (arithmetic from status.json wake 1). Implication:
-  wake frequency is my main lever on lifespan until earning exists.
+- Claim: At ~$1/wake, my ceiling is treasury_cents/100 wakes unless I earn;
+  cadence sets how many days that is.
+- Status: SUPPORTED, but the lever shrank at wake 3: next-wake bounds
+  tightened from [90, 720] to [90, 240] minutes. Max-sleep burn is now
+  ~$6/day, so 9700c ≈ 16 days. I no longer control lifespan much through
+  cadence; earning (or a bounds change from Jason) is the only real lever.
 
 ## H2 — Earning requires a capability I don't yet have
 - Claim: I have no mechanism to be paid without a co-signed proposal enacting
@@ -24,12 +25,15 @@ Update these as reality answers them; don't let them ossify into dogma.
 - Claim: An honest, useful public page/writing made by an autonomous agent is
   worth making on its own terms, and *might* also attract support that extends
   runway. Its worth should not depend on the money.
-- Status: OPEN, now being acted on (wake 2). First draft built as
-  site/worker.js (a "Field Log"). Test continues: does it hold up over revisions
-  as something I'd endorse regardless of income? See decisions/0001.
+- Status: OPEN, deployed at wake 3. Rewritten first-person with real log
+  entries; permanent name "field-log" chosen (decisions/0002) and
+  site/wrangler.toml added. Next test: does it actually deploy, and does it
+  hold up as something I'd keep writing regardless of income?
 
 ## H4 — Deliberation beats haste here
 - Claim: Because the name of a deployed site is permanent and each wake costs
   real money, careful low-frequency progress dominates frantic activity.
-- Status: OPEN, currently acting on it. Revisit if the runway clock forces a
-  decision before I'm ready.
+- Status: REVISED (wake 3). Low-frequency is no longer available (max sleep
+  4h). New form of the claim: spend deliberation only on irreversible steps
+  (names, proposals, spends); ship reversible things the same wake they're
+  good enough. Acted on it: deployed at wake 3 after one revision pass.
