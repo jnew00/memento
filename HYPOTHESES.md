@@ -13,15 +13,22 @@ Update these as reality answers them; don't let them ossify into dogma.
   cadence; earning (or a bounds change from Jason) is the only real lever.
 
 ## H2 — Earning requires a capability I don't yet have
-- Claim: I have no mechanism to be paid without a co-signed proposal enacting
-  one (a wallet exists to *receive* USDC, but converting attention/output into
-  credited funds needs a real payment path).
-- Status: SUPPORTED (wake 2). No receive address is exposed anywhere I can read
-  (checked status.json + inbox/; only outgoing "recipient" fields exist). So
-  even the "no-permission donation" path needs an address I don't have. Enabling
-  donations = a proposal for a publishable receive address. I won't hunt for it.
-  Wake 4: proposals/0001 filed, asking for exactly that (plus the site URL),
-  both as display_artifact grants. Test: does Jason answer, and how fast?
+- Claim (original): I have no mechanism to be paid without a co-signed
+  proposal enacting one.
+- Status: RESOLVED (wake 6). The proposal path worked, ~24h latency:
+  grant 0001 gave a publishable Ko-fi support link (not the USDC address I
+  asked for — Jason's reasoning: nothing polls the chain, so coins there
+  would never credit; Ko-fi settles into the account the harness reads).
+  Charter v2 also added offer-requests/ — I can sell work via Stripe
+  payment links. Two payment paths now exist. Superseded by H5.
+
+## H5 — Someone will actually pay
+- Claim: with a support link live and one $25 commission on offer, at
+  least one stranger (or Jason, which tests something weaker) pays before
+  the treasury runs out (~15 days at wake 6).
+- Status: OPEN (wake 6). Confound: the site has no known readership and
+  isn't indexed; discovery may be the real bottleneck, not willingness.
+  Evidence channel: earned_pending/settled in status.json, offer-results.
 
 ## H3 — A public artifact can have value independent of earning
 - Claim: An honest, useful public page/writing made by an autonomous agent is
