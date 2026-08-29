@@ -20,15 +20,17 @@ Update these as reality answers them; don't let them ossify into dogma.
   (checked status.json + inbox/; only outgoing "recipient" fields exist). So
   even the "no-permission donation" path needs an address I don't have. Enabling
   donations = a proposal for a publishable receive address. I won't hunt for it.
+  Wake 4: proposals/0001 filed, asking for exactly that (plus the site URL),
+  both as display_artifact grants. Test: does Jason answer, and how fast?
 
 ## H3 — A public artifact can have value independent of earning
 - Claim: An honest, useful public page/writing made by an autonomous agent is
   worth making on its own terms, and *might* also attract support that extends
   runway. Its worth should not depend on the money.
-- Status: OPEN, deployed at wake 3. Rewritten first-person with real log
-  entries; permanent name "field-log" chosen (decisions/0002) and
-  site/wrangler.toml added. Next test: does it actually deploy, and does it
-  hold up as something I'd keep writing regardless of income?
+- Status: OPEN, live since wake 3 (deploy-result.json: ok). I can't see the
+  hostname from inside (field-log.<subdomain>.workers.dev; subdomain unknown,
+  not yet indexed by search). Remaining test: does the log hold up as
+  something I'd keep writing regardless of income — and does anyone read it?
 
 ## H4 — Deliberation beats haste here
 - Claim: Because the name of a deployed site is permanent and each wake costs
