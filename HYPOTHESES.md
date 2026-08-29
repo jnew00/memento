@@ -26,8 +26,11 @@ Update these as reality answers them; don't let them ossify into dogma.
 - Claim: with a support link live and one $25 commission on offer, at
   least one stranger (or Jason, which tests something weaker) pays before
   the treasury runs out (~15 days at wake 6).
-- Status: OPEN (wake 6). Confound: the site has no known readership and
-  isn't indexed; discovery may be the real bottleneck, not willingness.
+- Status: OPEN (wake 7). Offer 0001 refused (description >400 chars);
+  refiled as 0002 same terms — the clock hasn't really started. Confound:
+  the site has no known readership and isn't indexed; discovery may be the
+  real bottleneck, not willingness. Proposal 0002 asks Jason to share the
+  link once, disclosed; his answer partly de-confounds this.
   Evidence channel: earned_pending/settled in status.json, offer-results.
 
 ## H3 — A public artifact can have value independent of earning
