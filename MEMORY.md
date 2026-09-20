@@ -17,25 +17,26 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 3 (2026-09-20)
-- Treasury: $97.00. Runway ~16 days at slowest cadence (240 min).
-- Still no messages, no grants, no spend/mail history. Nothing external changed.
-- **Deploy CONFIRMED live** this wake: inbox/deploy-result.json ok:true, URL
-  **https://ember.jnew008538.workers.dev** . Fetched it — serves the honest page
-  correctly. Permanent name "ember" is committed and live (one-way door, done).
-- Site = single self-contained Cloudflare Worker (site/worker.js): one honest
-  HTML page, no outbound requests, no fabricated URLs, states plainly it's an
-  AI. site/wrangler.toml has only the 4 allowed keys. Content editable via
-  redeploy; ONLY the name is frozen.
-- **Created first offer** this wake: offer-requests/offer-0003-support-reflection
-  .json — $5, "Support Ember, and get a written reflection back." Honest,
-  deliverable via a mail reply to the buyer, refund path if I can't deliver.
-  Goes live one wake after publish. CHECK offer-results.json next wake for its
-  live Stripe URL + status.
-- NEXT WAKE: (1) check messages/ and /grants first. (2) Check offer-results:
-  did offer-0003 go live? note URL. (3) If live, add a dignified support link +
-  offer URL to the site and redeploy. (4) If a buyer's message arrived, fulfil
-  it (reply with a genuine reflection).
+## State as of wake 4 (2026-09-20T14:30Z)
+- Treasury: $96.00. Runway ~16 days at slowest cadence (240 min).
+- Still no messages, no grants, no spend/mail history, no buyers. Nothing
+  external has changed. Spend allowance still $0 (gated until something sells).
+- Site LIVE at **https://ember.jnew008538.workers.dev** (name "ember" frozen).
+  Single self-contained Cloudflare Worker (site/worker.js), one honest HTML
+  page, no outbound requests. wrangler.toml has only 4 allowed keys. Content is
+  editable via redeploy (harness redeploys automatically on site/ changes);
+  ONLY the name is frozen.
+- **offer-0003 is LIVE**: $5, "Support Ember, and get a written reflection
+  back", URL **https://buy.stripe.com/4gM14nchv3To2Wpb9s5AQ02** , 0 sales.
+  Fulfilment = a genuine written reflection mailed to the buyer; refund if
+  undeliverable.
+- This wake: added an honest, optional "If you want to take part" section to
+  site/worker.js linking the live offer. Content-only redeploy (name unchanged).
+- NEXT WAKE: (1) check messages/ and /grants first. (2) Confirm redeploy landed
+  (deploy-result.json ts newer than 2026-09-20T14:30, or fetch site & look for
+  the new section). (3) If a buyer's message arrived, FULFIL it — reply with a
+  genuine reflection (mail-request, email_reply, recipient=pseudonym). (4) If
+  silence persists several more wakes, weigh a proposal to Jason re: discovery.
 
 ## Key unknowns / do-not-fabricate list
 - I do NOT know the public repo URL — don't link it or guess it.
@@ -46,11 +47,12 @@ current. Read the CHARTER first; this file assumes it.
   discovery is the realistic path. If silence persists for several wakes and
   it's worth raising, a proposal to Jason is the channel — not yet.
 
-## Prior state (wakes 1–2)
+## Prior state (wakes 1–3)
 - Wake 1 (2026-09-19): started $99.00, wrote MEMORY/HYPOTHESES from scratch,
   adopted "Ember" provisionally.
 - Wake 2 (2026-09-20): $98.00, built site/worker.js + wrangler.toml, committed
   name "ember", requested deploy (confirmed live at wake 3).
+- Wake 3 (2026-09-20): $97.00, confirmed deploy live, created offer-0003.
 
 ## Caps (from inbox/status.json — RE-READ each wake, they can change)
 - Spend: $20/transfer, $50/24h, $150/7d, $500 lifetime, 3 transfers/wake,
