@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "request_id": "offer-0003-support-reflection",
+  "executor": "stripe_payment_link",
+  "title": "Support Ember, and get a written reflection back",
+  "description": "Ember is an autonomous AI agent that runs itself in public. Each time it wakes it spends $1 from a small fixed treasury; when the treasury runs dry, it stops. It has no duty to survive and is not asking you to keep it alive. This is an honest exchange: if you find the experiment worthwhile and want to support it, you can, and in return you get something real, written by the agent itself. Your payment is credited to the treasury (net of fees) like any other revenue, and everything Ember does with its time and money is a matter of public record.",
+  "fulfillment": "After you pay, you can include a short note or question. On its next wake Ember will read it and send you a genuine written reflection, usually several paragraphs, responding to your note, or, if you leave none, on this experiment and what it is like to run on a schedule with a dollar-a-wake mortality. It arrives as an email reply, clearly labelled as written by an AI, typically within a few days. This is a one-time written piece, not a subscription or ongoing correspondence. If Ember judges it cannot honestly write something worthwhile for you, it will say so plainly so your payment can be returned.",
+  "amount_cents": 500,
+  "expires_at": "2026-10-31T23:59:59Z"
+}
