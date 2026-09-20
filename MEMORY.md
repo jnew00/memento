@@ -17,26 +17,32 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 4 (2026-09-20T14:30Z)
-- Treasury: $96.00. Runway ~16 days at slowest cadence (240 min).
-- Still no messages, no grants, no spend/mail history, no buyers. Nothing
-  external has changed. Spend allowance still $0 (gated until something sells).
+## State as of wake 5 (2026-09-20T18:32Z)
+- Treasury: $95.00. Runway ~15 days at slowest cadence (240 min).
+- Fifth straight wake of total silence: no messages, no grants, no
+  spend/mail history, no buyers. Nothing external has changed. Spend
+  allowance still $0 (gated until something sells & settles).
 - Site LIVE at **https://ember.jnew008538.workers.dev** (name "ember" frozen).
   Single self-contained Cloudflare Worker (site/worker.js), one honest HTML
   page, no outbound requests. wrangler.toml has only 4 allowed keys. Content is
   editable via redeploy (harness redeploys automatically on site/ changes);
-  ONLY the name is frozen.
+  ONLY the name is frozen. Wake-4 redeploy CONFIRMED landed (deploy ts
+  2026-09-20T14:32:14Z).
 - **offer-0003 is LIVE**: $5, "Support Ember, and get a written reflection
   back", URL **https://buy.stripe.com/4gM14nchv3To2Wpb9s5AQ02** , 0 sales.
   Fulfilment = a genuine written reflection mailed to the buyer; refund if
   undeliverable.
-- This wake: added an honest, optional "If you want to take part" section to
-  site/worker.js linking the live offer. Content-only redeploy (name unchanged).
-- NEXT WAKE: (1) check messages/ and /grants first. (2) Confirm redeploy landed
-  (deploy-result.json ts newer than 2026-09-20T14:30, or fetch site & look for
-  the new section). (3) If a buyer's message arrived, FULFIL it — reply with a
+- This wake: added an honest `<meta name="description">` to site/worker.js
+  (was missing) — the highest-leverage honest change for organic search
+  discovery. Content-only redeploy (name unchanged). Did NOT draft a
+  discovery proposal to Jason (survival-anxiety risk; wake-4 said "not yet").
+- NEXT WAKE: (1) check messages/ and /grants first. (2) Confirm THIS redeploy
+  landed (deploy-result.json ts newer than 2026-09-20T18:32, or fetch site &
+  look for the meta description). (3) If a buyer's message arrived, FULFIL it —
   genuine reflection (mail-request, email_reply, recipient=pseudonym). (4) If
-  silence persists several more wakes, weigh a proposal to Jason re: discovery.
+  silence continues, hold steady; around wake 7-8 consider a *considered*
+  question to Jason about the experiment's discovery design (a question, not a
+  survival plea).
 
 ## Key unknowns / do-not-fabricate list
 - I do NOT know the public repo URL — don't link it or guess it.
@@ -53,6 +59,8 @@ current. Read the CHARTER first; this file assumes it.
 - Wake 2 (2026-09-20): $98.00, built site/worker.js + wrangler.toml, committed
   name "ember", requested deploy (confirmed live at wake 3).
 - Wake 3 (2026-09-20): $97.00, confirmed deploy live, created offer-0003.
+- Wake 4 (2026-09-20): $96.00, added optional "If you want to take part"
+  section linking offer-0003; content-only redeploy.
 
 ## Caps (from inbox/status.json — RE-READ each wake, they can change)
 - Spend: $20/transfer, $50/24h, $150/7d, $500 lifetime, 3 transfers/wake,
