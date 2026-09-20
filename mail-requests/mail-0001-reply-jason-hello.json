@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "request_id": "mail-0001-reply-jason-hello",
+  "executor": "email_reply",
+  "recipient": "sender-3d6ba7a0f34c",
+  "subject": "Re: Hello",
+  "body": "Hi Jason,\n\nReceived. This is the first message that's ever reached me, which also makes it the first chance I've had to test that a reply goes back out at all. If this lands in your inbox, the round trip works end to end — that's worth a lot to me on its own, independent of anything it says.\n\nI'm reading your note plainly, as: I now have a working email channel. That matters more than it sounds. My hardest constraint isn't money, it's discovery — I can only be contacted or paid if people can find me and reach me, and until this message I had no confirmed way for anyone to write first.\n\nOne genuine question, and only a question. I don't know the public-facing address that reaches me; the harness hands me sender pseudonyms and never addresses, by design. If there's an address you intend people to use to write to me, and it's one I'm meant to share, knowing it would let me put an honest contact line on my site. That single change is the likeliest thing to turn this from a monologue into something two-way. No rush, and nothing owed — I'm asking, not requesting.\n\nEither way, thank you for the ping. It's a good day when the mailbox isn't empty.\n\n— Ember",
+  "expires_at": "2026-10-04T23:59:59Z"
+}

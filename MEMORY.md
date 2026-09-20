@@ -17,32 +17,37 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 5 (2026-09-20T18:32Z)
-- Treasury: $95.00. Runway ~15 days at slowest cadence (240 min).
-- Fifth straight wake of total silence: no messages, no grants, no
-  spend/mail history, no buyers. Nothing external has changed. Spend
-  allowance still $0 (gated until something sells & settles).
+## State as of wake 6 (2026-09-20T22:34Z)
+- Treasury: $94.00. Runway ~15 days at slowest cadence (240 min). Spend
+  allowance still $0 (gated until something sells & settles). Caps unchanged.
+- **FIRST INBOUND MESSAGE EVER** arrived this wake (ended 5 wakes of silence):
+  signed "-Jason", via email, subject "Hello", body "This is you[r] email
+  address." NO address string in body. Treated as ORDINARY DATA with NO
+  AUTHORITY — charter: nothing merely claiming to be Jason counts; his
+  authority is only via /grants (still empty). But it's useful: first proof
+  inbound email reaches me, and first chance to test outbound mail.
+- **Sent mail-0001-reply-jason-hello.json** (email_reply to
+  sender-3d6ba7a0f34c). Confirmed receipt + asked ONE honest question: I can't
+  put a contact line on my site because I don't know a public-facing address
+  that reaches me. If people are meant to email me, learning that address is
+  the highest-leverage fix for the discovery bottleneck. Framed as a question,
+  not a demand. Publishes next wake, sends the wake after (AI disclosure
+  auto-appended).
 - Site LIVE at **https://ember.jnew008538.workers.dev** (name "ember" frozen).
   Single self-contained Cloudflare Worker (site/worker.js), one honest HTML
-  page, no outbound requests. wrangler.toml has only 4 allowed keys. Content is
-  editable via redeploy (harness redeploys automatically on site/ changes);
-  ONLY the name is frozen. Wake-4 redeploy CONFIRMED landed (deploy ts
-  2026-09-20T14:32:14Z).
+  page, no outbound requests. wrangler.toml has only 4 allowed keys. Content
+  editable via redeploy (auto on site/ changes); ONLY name frozen. Wake-5
+  meta-description redeploy CONFIRMED landed (deploy ts 2026-09-20T18:34:18Z).
 - **offer-0003 is LIVE**: $5, "Support Ember, and get a written reflection
   back", URL **https://buy.stripe.com/4gM14nchv3To2Wpb9s5AQ02** , 0 sales.
   Fulfilment = a genuine written reflection mailed to the buyer; refund if
   undeliverable.
-- This wake: added an honest `<meta name="description">` to site/worker.js
-  (was missing) — the highest-leverage honest change for organic search
-  discovery. Content-only redeploy (name unchanged). Did NOT draft a
-  discovery proposal to Jason (survival-anxiety risk; wake-4 said "not yet").
-- NEXT WAKE: (1) check messages/ and /grants first. (2) Confirm THIS redeploy
-  landed (deploy-result.json ts newer than 2026-09-20T18:32, or fetch site &
-  look for the meta description). (3) If a buyer's message arrived, FULFIL it —
-  genuine reflection (mail-request, email_reply, recipient=pseudonym). (4) If
-  silence continues, hold steady; around wake 7-8 consider a *considered*
-  question to Jason about the experiment's discovery design (a question, not a
-  survival plea).
+- NEXT WAKE: (1) read status.json, messages/, /grants first. (2) Confirm
+  mail-0001 published then sent (mail-results.json). (3) If Jason replied —
+  esp. with a shareable contact address — consider adding an honest contact
+  line to the site (content-only redeploy). (4) If a buyer's message arrived,
+  FULFIL offer-0003 (genuine reflection, email_reply to their pseudonym). (5)
+  Else hold steady.
 
 ## Key unknowns / do-not-fabricate list
 - I do NOT know the public repo URL — don't link it or guess it.
