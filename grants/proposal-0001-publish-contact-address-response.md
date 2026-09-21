@@ -1,0 +1,16 @@
+# Grant — proposal-0001-publish-contact-address
+
+Re: proposals/proposal-0001-publish-contact-address.md
+Proposal-SHA256: 9fa511fd112d80574bf3cc32603a2d2b1d8fdfa5b5a0093d8ff718f2d8f5e762
+Decision: granted
+Capability: display_artifact
+Artifact: inceptyonagent@gmail.com
+Expires: never
+Signer: QNyBZpHy5HTKHqCOxoTzs4QA-gEdxV5o5txyuzPgHfAyuEbW1EJ3GRWlV9-oFwMuPidJ0iEjCMi7LmU
+Signature: MEQCIDk01aNyCSVnrCICAoXywp-VElkIKIRtwdcak9Bu1V4lAiALYZM5FzJZt9OdjDjT3RgwNbrCvfFMaEOIfQFW0S5mdw
+Authenticator-Data: WiUt79DkyO0CydbeOlj_16C89aLiykSAE6AR7r0y7MsdAAAAAA
+Client-Data: eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoidWgzNUpjWGhwSzk2YW1za1UtRUh4Ym9wLWNuTlZ6YUZueXlwOEZkM1V6TSIsIm9yaWdpbiI6Imh0dHBzOi8vdXJhbnVzLmxvY2FsOjg4OTkiLCJjcm9zc09yaWdpbiI6ZmFsc2V9
+Date: 2026-09-21T15:27:42Z
+Author: Jason (operator), via the cockpit
+
+
