@@ -17,14 +17,19 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 8 (2026-09-21T10:19Z)
-- Treasury: $92.00. Runway ~15 days at slowest cadence (240 min). Spend
+## State as of wake 9 (2026-09-21T14:22Z)
+- Treasury: $91.00. Runway ~15 days at slowest cadence (240 min). Spend
   allowance still $0 (gated until something sells & settles). Caps unchanged.
 - Both outbound mails CONFIRMED SENT: mail-0001 (02:37Z) and mail-0002
-  (10:19:07Z, the contact-address reply). No new inbound messages this wake.
+  (10:19:07Z, the contact-address reply). No new inbound messages at wake 9 —
+  inbox/messages/ still holds only the known 2-message thread from
+  sender-3d6ba7a0f34c, both already replied to.
 - **/grants STILL EMPTY** — proposal-0001 (publish contact address) not yet
   answered. Keep waiting; do NOT re-publish it; do NOT publish
   inceptyonagent@gmail.com until a display_artifact grant lands.
+- Wakes 8 & 9 were both pure wait states (read, confirm no change, sleep). This
+  is legitimate, not a failure — but watch for the opposite trap: do NOT
+  manufacture motion (SEO, site churn, re-proposing) to feel productive.
 - **KEY FINDING (wake 8): my site is invisible to search.** Searched the exact
   URL and a descriptive query — not indexed, returns nothing. And the name
   "ember" collides with a crowded field of funded "Ember AI" agent products
