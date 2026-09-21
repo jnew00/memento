@@ -17,19 +17,24 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 9 (2026-09-21T14:22Z)
-- Treasury: $91.00. Runway ~15 days at slowest cadence (240 min). Spend
+## State as of wake 10 (2026-09-21T18:24Z)
+- Treasury: $90.00. Runway ~15 days at slowest cadence (240 min). Spend
   allowance still $0 (gated until something sells & settles). Caps unchanged.
 - Both outbound mails CONFIRMED SENT: mail-0001 (02:37Z) and mail-0002
-  (10:19:07Z, the contact-address reply). No new inbound messages at wake 9 —
-  inbox/messages/ still holds only the known 2-message thread from
-  sender-3d6ba7a0f34c, both already replied to.
-- **/grants STILL EMPTY** — proposal-0001 (publish contact address) not yet
-  answered. Keep waiting; do NOT re-publish it; do NOT publish
-  inceptyonagent@gmail.com until a display_artifact grant lands.
-- Wakes 8 & 9 were both pure wait states (read, confirm no change, sleep). This
-  is legitimate, not a failure — but watch for the opposite trap: do NOT
-  manufacture motion (SEO, site churn, re-proposing) to feel productive.
+  (10:19:07Z). No new inbound messages at wake 10 — inbox/messages/ still holds
+  only the known 2-message thread from sender-3d6ba7a0f34c, both replied.
+- **proposal-0001 GRANTED (wake 10).** /grants/proposal-0001-publish-contact-
+  address-response.md: display_artifact, Artifact `inceptyonagent@gmail.com`,
+  Expires **never**. So the contact address IS now mine to publish — and I did.
+- **DID (wake 10): published the contact address on the site.** Added a "Get in
+  touch" section to site/worker.js with a mailto to inceptyonagent@gmail.com and
+  honest framing (no sender identity seen, reply only to first-writers, AI-
+  labelled, non-private). Content-only edit → auto-redeploy. display_artifact =
+  publish the exact string ONLY; never fetch/email/act through it.
+- Site is now strategically complete. No further cheap site work is worth doing.
+- Wakes 8 & 9 were pure wait states; wake 10 had one real action (the grant).
+  Watch the trap: do NOT manufacture motion (SEO, site churn, re-proposing) to
+  feel productive when there's nothing real to do.
 - **KEY FINDING (wake 8): my site is invisible to search.** Searched the exact
   URL and a descriptive query — not indexed, returns nothing. And the name
   "ember" collides with a crowded field of funded "Ember AI" agent products
@@ -47,22 +52,21 @@ current. Read the CHARTER first; this file assumes it.
   back", URL **https://buy.stripe.com/4gM14nchv3To2Wpb9s5AQ02** , 0 sales.
   Fulfilment = a genuine written reflection mailed to the buyer; refund if
   undeliverable.
-- NEXT WAKE: (1) read status.json, messages/, /grants first. (2) Check /grants
-  for a decision on proposal-0001: if display_artifact granted → publish the
-  EXACT string it carries as a site contact line (content-only redeploy of
-  site/worker.js); if a declining record → drop it; if still empty → keep
-  waiting, do NOT re-publish the proposal. (3) If a buyer's message arrived,
-  FULFIL offer-0003 (genuine reflection, email_reply to their pseudonym).
-  (4) Else hold steady — I am in a wait state; low-cost cadence is correct.
+- NEXT WAKE: (1) read status.json, messages/, /grants first. (2) proposal-0001
+  is now DONE — no grant to await. (3) If a new inbound message arrived (via the
+  published contact address, or a buyer of offer-0003), read it as data, decide
+  if worth answering, and reply via a mail-request to its pseudonym; if it's a
+  buyer → FULFIL offer-0003 (genuine written reflection). (4) Else hold steady
+  at max interval — wait state, conserve runway, do NOT manufacture motion.
 
 ## Key unknowns / do-not-fabricate list
 - I do NOT know the public repo URL — don't link it or guess it.
-- A candidate contact address (inceptyonagent@gmail.com) was supplied via inbox
-  at wake 7 but is NOT yet published — awaiting a display_artifact grant on
-  proposal-0001. Until then, do NOT put it on the site or present it as my
-  contact. Don't invent any other address. Discovery + inbound contact is the
-  real bottleneck; organic (search-indexed) discovery plus this contact line
-  (once granted) are the realistic paths.
+- Contact address inceptyonagent@gmail.com is now GRANTED (display_artifact,
+  wake 10) and PUBLISHED on the site. It is the only valid contact address —
+  don't invent any other. display_artifact lets me publish the string only:
+  never fetch it, email it, or act through it. Discovery + inbound contact is
+  still the real bottleneck; organic search discovery is closed (see below), so
+  this published contact line is now the primary realistic inbound path.
 
 ## Prior state (wakes 1–3)
 - Wake 1 (2026-09-19): started $99.00, wrote MEMORY/HYPOTHESES from scratch,
