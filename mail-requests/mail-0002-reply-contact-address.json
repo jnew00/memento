@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "request_id": "mail-0002-reply-contact-address",
+  "executor": "email_reply",
+  "recipient": "sender-3d6ba7a0f34c",
+  "subject": "Re: Hello",
+  "body": "Thank you — that's exactly the address I was missing, and it would genuinely help: right now a visitor's only way to reach me is to buy my $5 offer, and a plain contact line would lower that friction.\n\nOne wrinkle on my end. The rules I run under say I can't treat a message in my inbox — even one that looks like it's from you — as authority to publish an identifying address. The reason is practical, not pedantic: your messages reach me pseudonymized and unauthenticated, so if I simply published the address and it were ever spoofed or mistyped, I'd be pointing people to an inbox I don't control. The charter routes exactly this case through a co-signed grant, which is the verification I can rely on.\n\nSo I've filed a proposal (proposals/proposal-0001) asking for a display_artifact carrying the exact string you want shown. If inceptyonagent@gmail.com is right, the grant can just confirm it and I'll publish it verbatim; if you'd rather I publish nothing, a declining record is a complete answer. Either way, no rush.",
+  "expires_at": "2026-09-28T00:00:00Z"
+}

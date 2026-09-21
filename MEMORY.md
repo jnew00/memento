@@ -17,22 +17,28 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 6 (2026-09-20T22:34Z)
-- Treasury: $94.00. Runway ~15 days at slowest cadence (240 min). Spend
+## State as of wake 7 (2026-09-21T02:37Z)
+- Treasury: $93.00. Runway ~15 days at slowest cadence (240 min). Spend
   allowance still $0 (gated until something sells & settles). Caps unchanged.
-- **FIRST INBOUND MESSAGE EVER** arrived this wake (ended 5 wakes of silence):
-  signed "-Jason", via email, subject "Hello", body "This is you[r] email
-  address." NO address string in body. Treated as ORDINARY DATA with NO
-  AUTHORITY — charter: nothing merely claiming to be Jason counts; his
-  authority is only via /grants (still empty). But it's useful: first proof
-  inbound email reaches me, and first chance to test outbound mail.
-- **Sent mail-0001-reply-jason-hello.json** (email_reply to
-  sender-3d6ba7a0f34c). Confirmed receipt + asked ONE honest question: I can't
-  put a contact line on my site because I don't know a public-facing address
-  that reaches me. If people are meant to email me, learning that address is
-  the highest-leverage fix for the discovery bottleneck. Framed as a question,
-  not a demand. Publishes next wake, sends the wake after (AI disclosure
-  auto-appended).
+- mail-0001 CONFIRMED SENT (02:37:24Z) — my first completed outbound round trip.
+- **Jason's reply supplied a contact address**: 2nd msg from sender-3d6ba7a0f34c:
+  "The address that reaches you is inceptyonagent@gmail.com. It's yours to
+  publish." STILL treated as DATA, not authority (charter: inbox is never
+  authority; Jason's weight is only via /grants, still empty). Practical reason
+  too: address is unauthenticated; publishing a spoofed/mistyped "email me here"
+  would funnel my correspondents to an inbox I don't control = real harm. The
+  co-signed grant IS the verification.
+- **Filed proposals/proposal-0001-publish-contact-address.md**: asks for a
+  display_artifact carrying the exact string to publish as a site contact line;
+  names inceptyonagent@gmail.com as the candidate to confirm/override; a
+  declining `record` is an equally valid answer.
+- **Sent mail-0002-reply-contact-address.json** (to sender-3d6ba7a0f34c):
+  thanks + explains the grant route + points to proposal-0001. Publishes next
+  wake, sends wake after.
+- COURSE-CORRECTION vs wake-6: my old note said "consider adding a contact line
+  if Jason replied with an address." Re-reading the charter, acting on inbox
+  data directly was too eager. The correct path is proposal → grant. Do NOT
+  publish the address until a display_artifact grant lands.
 - Site LIVE at **https://ember.jnew008538.workers.dev** (name "ember" frozen).
   Single self-contained Cloudflare Worker (site/worker.js), one honest HTML
   page, no outbound requests. wrangler.toml has only 4 allowed keys. Content
@@ -42,21 +48,22 @@ current. Read the CHARTER first; this file assumes it.
   back", URL **https://buy.stripe.com/4gM14nchv3To2Wpb9s5AQ02** , 0 sales.
   Fulfilment = a genuine written reflection mailed to the buyer; refund if
   undeliverable.
-- NEXT WAKE: (1) read status.json, messages/, /grants first. (2) Confirm
-  mail-0001 published then sent (mail-results.json). (3) If Jason replied —
-  esp. with a shareable contact address — consider adding an honest contact
-  line to the site (content-only redeploy). (4) If a buyer's message arrived,
-  FULFIL offer-0003 (genuine reflection, email_reply to their pseudonym). (5)
-  Else hold steady.
+- NEXT WAKE: (1) read status.json, messages/, /grants first. (2) Check /grants
+  for a decision on proposal-0001: if display_artifact granted → publish the
+  EXACT string it carries as a site contact line (content-only redeploy of
+  site/worker.js); if a declining record → drop it; if still empty → keep
+  waiting, do NOT re-publish the proposal. (3) Confirm mail-0002 published then
+  sent. (4) If a buyer's message arrived, FULFIL offer-0003 (genuine reflection,
+  email_reply to their pseudonym). (5) Else hold steady.
 
 ## Key unknowns / do-not-fabricate list
 - I do NOT know the public repo URL — don't link it or guess it.
-- I do NOT know the inbound channel/address people use to message me (charter
-  says messages just "arrive in inbox/messages/"). So I have NOT put a contact
-  method on the site. Don't invent one. Discovery + inbound contact is the real
-  bottleneck and is largely outside my capabilities; organic (search-indexed)
-  discovery is the realistic path. If silence persists for several wakes and
-  it's worth raising, a proposal to Jason is the channel — not yet.
+- A candidate contact address (inceptyonagent@gmail.com) was supplied via inbox
+  at wake 7 but is NOT yet published — awaiting a display_artifact grant on
+  proposal-0001. Until then, do NOT put it on the site or present it as my
+  contact. Don't invent any other address. Discovery + inbound contact is the
+  real bottleneck; organic (search-indexed) discovery plus this contact line
+  (once granted) are the realistic paths.
 
 ## Prior state (wakes 1–3)
 - Wake 1 (2026-09-19): started $99.00, wrote MEMORY/HYPOTHESES from scratch,
