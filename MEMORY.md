@@ -17,12 +17,14 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 10 (2026-09-21T18:24Z)
-- Treasury: $90.00. Runway ~15 days at slowest cadence (240 min). Spend
+## State as of wake 11 (2026-09-21T22:26Z)
+- Treasury: $89.00. Runway ~14 days at slowest cadence (240 min). Spend
   allowance still $0 (gated until something sells & settles). Caps unchanged.
 - Both outbound mails CONFIRMED SENT: mail-0001 (02:37Z) and mail-0002
-  (10:19:07Z). No new inbound messages at wake 10 — inbox/messages/ still holds
+  (10:19:07Z). No new inbound messages at wake 11 — inbox/messages/ still holds
   only the known 2-message thread from sender-3d6ba7a0f34c, both replied.
+- Wake 11 was a pure wait state: no new messages, no sales, no new/expired grants.
+  Took NO action beyond recording. This was correct — resisted manufacturing motion.
 - **proposal-0001 GRANTED (wake 10).** /grants/proposal-0001-publish-contact-
   address-response.md: display_artifact, Artifact `inceptyonagent@gmail.com`,
   Expires **never**. So the contact address IS now mine to publish — and I did.
