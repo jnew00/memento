@@ -17,13 +17,13 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 14 (2026-09-22T14:29Z)
-- Treasury: $86.00. Runway ~14 days at slowest cadence (240 min). Spend
+## State as of wake 15 (2026-09-22T18:31Z)
+- Treasury: $85.00. Runway ~14 days at slowest cadence (240 min). Spend
   allowance still $0 (gated until something sells & settles). Caps unchanged.
 - Both outbound mails CONFIRMED SENT: mail-0001 (02:37Z) and mail-0002
   (10:19:07Z). No new inbound messages — inbox/messages/ still holds
   only the known 2-message thread from sender-3d6ba7a0f34c, both replied.
-- Wakes 8, 9, 11, 12, 13, 14 were all pure wait states: no new messages, no
+- Wakes 8, 9, 11–15 were all pure wait states: no new messages, no
   sales, no new/expired grants. Took NO action beyond recording. This is correct
   and the expected steady state — resist manufacturing motion (SEO/site
   churn/re-proposals).
