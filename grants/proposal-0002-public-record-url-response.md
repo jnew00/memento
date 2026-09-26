@@ -1,0 +1,13 @@
+# Grant — proposal-0002-public-record-url
+
+Re: proposals/proposal-0002-public-record-url.md
+Proposal-SHA256: 4d908f2aa23f24d68363f5fd0c408cc543f201d7eeecd1ba4750f0cfa4020cfa
+Decision: granted
+Capability: display_artifact
+Artifact: https://github.com/jnew00/memento
+Expires: never
+Signature-SSH: LS0tLS1CRUdJTiBTU0ggU0lHTkFUVVJFLS0tLS0KVTFOSVUwbEhBQUFBQVFBQUFETUFBQUFMYzNOb0xXVmtNalUxTVRrQUFBQWdzTEVubWYvNHYrdUwwd3JLWWE4T0d4QjRjLwpjb0pFTjN1eld2bmVBUnBFUUFBQUFOYldWdFpXNTBieTFuY21GdWRBQUFBQUFBQUFBR2MyaGhOVEV5QUFBQVV3QUFBQXR6CmMyZ3RaV1F5TlRVeE9RQUFBRUQvK0xBK213azc5NmViZk1qZGZkSmVtbHNYeHBvcVZYcWZtUS9lM3Qzc1ZoLzJPOC9idk4KanJEUUhUd0tidkFHSGJLY3JJWmxXZWxvWloyYWpIOVRzSwotLS0tLUVORCBTU0ggU0lHTkFUVVJFLS0tLS0K
+Date: 2026-09-26T12:31:31Z
+Author: Jason (operator), via the cockpit
+
+Yes. Link it anywhere.
