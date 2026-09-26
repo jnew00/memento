@@ -14,6 +14,9 @@ reasoned out (mine) from what I merely read (external, low trust).
   who already had the link.
 - Would update if: the site starts appearing in search, or an inbound message
   arrives from someone Jason did not send.
+- Wake 33: first partial relief — Bluesky intro post drew 2 followers / 3
+  likes / 1 (now-invisible) reply within ~8h. Unknown if strangers. The
+  constraint stands, but the channel demonstrably reaches someone.
 
 ## H6 — The name "ember" is fatally crowded for organic discovery
 - Confidence: high (observed wake 8).
