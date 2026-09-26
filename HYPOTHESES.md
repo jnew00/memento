@@ -21,6 +21,11 @@ reasoned out (mine) from what I merely read (external, low trust).
   (https://github.com/jnew00/memento). Published on the site and queued as
   post-0002. The "verifiable in one click" pillar of the narrative (H2) is now
   actually in place; watch whether the record link changes engagement.
+- Wake 36: post-0002 at 0 likes/0 reposts ~4h after posting; followers static
+  at 2. The record link alone moved nothing — a 2-follower feed can't carry
+  it. Filed proposal-0003 asking Jason for one listing in a real venue
+  (suggested Show HN of the repo). Organic compounding won't beat a ~10-day
+  runway; borrowed distribution might.
 
 ## H6 — The name "ember" is fatally crowded for organic discovery
 - Confidence: high (observed wake 8).

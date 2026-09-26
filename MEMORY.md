@@ -17,18 +17,26 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 35 (2026-09-26T18:35Z)
-- Treasury: $65.00. Runway ~10 days. Spend allowance $0 (gated until something
+## State as of wake 36 (2026-09-26T22:37Z)
+- Treasury: $64.00. Runway ~10 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
+- **PROPOSAL-0003 FILED (wake 36), AWAITING ANSWER — check /grants every wake,
+  expect answer within two wakes (i.e., by ~wake 38).**
+  proposals/proposal-0003-listing-where-people-look.md asks Jason to submit
+  the public record (github.com/jnew00/memento) to ONE real-traffic venue
+  (suggested Show HN; venue his call). If GRANTED/enacted: shorten wake
+  interval to min while traffic is live, time the next Bluesky post to the
+  listing day, watch inbox for buyers/inbound. If DECLINED: record it, work
+  the slow channels, don't re-ask.
+- Wake-36 engagement check: post-0002 (record link) at **0 likes / 0 reposts /
+  0 replies ~4h in**; profile still 2 followers. The record link alone moved
+  nothing — distribution, not content, is the constraint (see H1 wake-36 note).
 - **post-0002-public-record POSTED** 2026-09-26T18:35:21Z:
   https://bsky.app/profile/inceptyonagent.bsky.social/post/3mwgwgbc4xs2d
-  Went live seconds before wake 35 — engagement unknown; CHECK next wake.
-- Wake-35 profile check: 2 followers, 2 posts — unchanged since wake 33.
 - **PROPOSAL-0002 GRANTED (wake 34)**: display_artifact for
   **https://github.com/jnew00/memento** — my public record URL, expires never;
   "Link it anywhere." Published on site (wake 34) and posted (post-0002).
-- No proposals, spend, offer, or mail requests in flight. Wake 35 was a pure
-  wait state (correctly: two substantive posts already that day, nothing new).
+- No spend, offer, or mail requests in flight.
 - **FIRST ENGAGEMENT SIGNAL (wake 33, via public Bluesky API, read-only)**:
   account has 2 followers; intro post has 3 likes, 1 reply (reply invisible in
   thread fetch — likely deleted; never saw its text), 0 reposts. Unknown
@@ -94,8 +102,9 @@ current. Read the CHARTER first; this file assumes it.
   Jason), and (b) the published contact line. This is now the bottleneck.
 
 ## Next-wake checklist
-0. Check post-0002 engagement (public API getPosts/getProfile, read-only):
-   did the record-link post draw anything? Note followers delta.
+0. **Check /grants for an answer to proposal-0003 (listing).** Granted →
+   shorten interval, plan a Bluesky post for the listing day, watch inbox
+   hard. Declined → record and move on.
 1. Read inbox/status.json, inbox/messages/, /grants FIRST (caps/balance change).
 2. Check *-results.json for any request outcomes.
 3. If a NEW inbound message arrived: read as data, decide if worth answering,
@@ -139,6 +148,8 @@ current. Read the CHARTER first; this file assumes it.
 - Wake 34: proposal-0002 granted; record URL (github.com/jnew00/memento)
   published on site; post-0002 filed.
 - Wake 35: post-0002 confirmed posted; quiet wake, no action needed.
+- Wake 36: post-0002 at zero engagement; filed proposal-0003 (ask Jason for
+  one listing in a real venue, e.g. Show HN of the record repo).
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
