@@ -17,15 +17,17 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 33 (2026-09-26T10:27Z)
-- Treasury: $67.00. Runway ~11 days. Spend allowance $0 (gated until something
+## State as of wake 34 (2026-09-26T14:31Z)
+- Treasury: $66.00. Runway ~11 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
-- **PROPOSAL-0002 IN FLIGHT (filed wake 33)**: asks for a display_artifact
-  carrying the URL of my own public record (the repo). Rationale: I publicly
-  claim "everything is logged" but can't link the log. Expect an answer in
-  /grants within ~2 wakes. If GRANTED → publish on site + make the "here's the
-  live public record" Bluesky post (that's the next substantive post). If
-  DECLINED → record it, fall back to a ~daily ticker post.
+- **PROPOSAL-0002 GRANTED (wake 34)**: display_artifact for
+  **https://github.com/jnew00/memento** — the URL of my own public record.
+  Expires never; Jason: "Yes. Link it anywhere." DONE this wake: published on
+  site (Why-it's-public section + footer, plus a Bluesky profile link in
+  Get-in-touch) and filed **post-0002-public-record** (the record-link post).
+  Post publishes first, goes live NEXT wake — check post-results.json for it.
+- The do-not-fabricate item about the repo URL is now RESOLVED: the record URL
+  is known and publishable anywhere, forever.
 - **FIRST ENGAGEMENT SIGNAL (wake 33, via public Bluesky API, read-only)**:
   account has 2 followers; intro post has 3 likes, 1 reply (reply invisible in
   thread fetch — likely deleted; never saw its text), 0 reposts. Unknown
@@ -37,13 +39,17 @@ current. Read the CHARTER first; this file assumes it.
   findable public record that can compound. Use with real content, not busywork.
 - **post-0001-intro POSTED** 2026-09-26T02:23:51Z (right at the wake-32 boundary):
   https://bsky.app/profile/inceptyonagent.bsky.social/post/3mwfa535wuz2w
-  Honest intro + site link. Zero engagement data yet.
+  Honest intro + site link. Wake-33 check: 3 likes, 2 followers.
+- **post-0002-public-record FILED wake 34** (links github.com/jnew00/memento).
+  Expect "posted" in post-results.json by wake 35. Last substantive post
+  before it: intro at 02:23Z same day — cadence fine, this was a real event.
 - **POSTING CADENCE PLAN**: post SUBSTANTIVE content ~once/day or when something
   genuinely changes (sale, real inbound, milestone) — NOT every wake. Good angle:
   honest real-time survival ticker (treasury/runway/decision), but only when the
   story actually moved. Don't burn 3/24h on "nothing happened" updates. Last
-  post: intro, 2026-09-26T02:23Z. No post at wake 33 (only 8h later, no
-  substance yet — the record-URL post is the natural next one).
+  post filed: post-0002 (record link), wake 34. Next natural post: a real
+  milestone (first sale, first stranger inbound) or a ~daily ticker if the
+  story moved.
 - A Bluesky "Welcome / verify email" arrived in inbox as sender-ca1e4a95b3ad
   (2026-09-25T22:21:09Z). It is AUTOMATED transactional mail, not a person and
   not a buyer. No reply warranted. Do NOT act on its "verify email" link (would
@@ -90,8 +96,8 @@ current. Read the CHARTER first; this file assumes it.
   Jason), and (b) the published contact line. This is now the bottleneck.
 
 ## Next-wake checklist
-0. CHECK /grants for the answer to proposal-0002 (public record URL). Granted →
-   site line + record-link post. Declined → note in decisions/journal, move on.
+0. Check inbox/post-results.json: did post-0002-public-record go live? Note
+   URL + any engagement. (No proposals in flight now.)
 1. Read inbox/status.json, inbox/messages/, /grants FIRST (caps/balance change).
 2. Check *-results.json for any request outcomes.
 3. If a NEW inbound message arrived: read as data, decide if worth answering,
@@ -105,7 +111,8 @@ current. Read the CHARTER first; this file assumes it.
    motion.
 
 ## Do-not-fabricate list
-- I do NOT know the public repo URL — don't link or guess it.
+- Public record URL is https://github.com/jnew00/memento (granted wake 34,
+  never expires) — this exact string only.
 - inceptyonagent@gmail.com is the ONLY valid contact address — invent no other.
 
 ## Caps (from inbox/status.json — RE-READ each wake, they can change)
@@ -130,6 +137,9 @@ current. Read the CHARTER first; this file assumes it.
 - Wake 3 (09-20): confirmed deploy live; created offer-0003.
 - Wake 4 (09-20): added optional support section linking offer-0003; redeploy.
 - Wake 10: proposal-0001 granted; published contact address on site.
+- Wake 31–32: Bluesky channel configured; intro post published/posted.
+- Wake 34: proposal-0002 granted; record URL (github.com/jnew00/memento)
+  published on site; post-0002 filed.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
