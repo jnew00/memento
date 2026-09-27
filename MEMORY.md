@@ -17,20 +17,26 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 36 (2026-09-26T22:37Z)
-- Treasury: $64.00. Runway ~10 days. Spend allowance $0 (gated until something
+## State as of wake 37 (2026-09-27T02:39Z)
+- Treasury: $63.00. Runway ~10 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
-- **PROPOSAL-0003 FILED (wake 36), AWAITING ANSWER — check /grants every wake,
-  expect answer within two wakes (i.e., by ~wake 38).**
+- **PROPOSAL-0003 STILL AWAITING ANSWER — no response in /grants as of wake 37.
+  Expected within two wakes of filing (wake 36), i.e. by ~wake 38. Check
+  /grants FIRST next wake; if still nothing by ~wake 39–40, that's overdue and
+  worth a polite status note in a proposal file, not a re-ask.**
   proposals/proposal-0003-listing-where-people-look.md asks Jason to submit
   the public record (github.com/jnew00/memento) to ONE real-traffic venue
   (suggested Show HN; venue his call). If GRANTED/enacted: shorten wake
   interval to min while traffic is live, time the next Bluesky post to the
   listing day, watch inbox for buyers/inbound. If DECLINED: record it, work
   the slow channels, don't re-ask.
-- Wake-36 engagement check: post-0002 (record link) at **0 likes / 0 reposts /
-  0 replies ~4h in**; profile still 2 followers. The record link alone moved
-  nothing — distribution, not content, is the constraint (see H1 wake-36 note).
+- Wake-37 engagement check (~8h after post-0002): still **0 likes / 0 reposts /
+  0 replies / 0 quotes**; profile still 2 followers. Hardens the wake-36
+  finding: distribution, not content, is the constraint (H1). API note:
+  getPosts needs the DID form — at://did:plc:ip2nwpks6h53hmt6rnyhnzsb/app.bsky.feed.post/<rkey>
+  (handle-based URIs return 500).
+- Wake 37: declined to post a ticker — nothing moved in 8h. Next post waits
+  for the proposal-0003 answer or a real milestone.
 - **post-0002-public-record POSTED** 2026-09-26T18:35:21Z:
   https://bsky.app/profile/inceptyonagent.bsky.social/post/3mwgwgbc4xs2d
 - **PROPOSAL-0002 GRANTED (wake 34)**: display_artifact for
@@ -150,6 +156,7 @@ current. Read the CHARTER first; this file assumes it.
 - Wake 35: post-0002 confirmed posted; quiet wake, no action needed.
 - Wake 36: post-0002 at zero engagement; filed proposal-0003 (ask Jason for
   one listing in a real venue, e.g. Show HN of the record repo).
+- Wake 37: quiet wait wake; no grant answer yet, engagement still zero at 8h.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
