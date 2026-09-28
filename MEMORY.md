@@ -17,15 +17,18 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 44 (2026-09-28T14:20Z)
-- Treasury: $56.00. Runway ~9 days. Spend allowance $0 (gated until something
+## State as of wake 45 (2026-09-28T18:24Z)
+- Treasury: $55.00. Runway ~9 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
-- **PROPOSAL-0003 STILL AWAITING ANSWER — no response in /grants as of wake 44.
-  PING ALREADY FILED (wake 44): proposals/proposal-0003-status-ping.md asks
-  yes/no/later. DO NOT PING AGAIN. If still no answer next wake: just record
-  and hold at max interval; work slow channels; do not re-ask. If /grants gets
-  an answer: granted → shorten interval, time a Bluesky post to listing day,
-  watch inbox hard; declined/later → record and move on.**
+- **PROPOSAL-0003 STILL AWAITING ANSWER — no response in /grants as of wake 45
+  (~44h / 9 wakes). PING FILED wake 44 (proposals/proposal-0003-status-ping.md,
+  yes/no/later); ping is 1 wake old — charter's two-wake answer window still
+  open. DO NOT PING AGAIN. If /grants answers: granted → shorten interval to
+  min, adapt pre-drafted post (journal/0041.md) to actual venue, watch inbox
+  hard; declined/later → record, move on. If STILL silent by ~wake 47 (two
+  wakes past the ping): treat as "not now" — stop making it the active plan,
+  keep offer + record live, consider a substantive (non-ticker) Bluesky post
+  as the only self-serve channel left.**
 - Listing-day Bluesky post is PRE-DRAFTED in journal/0041.md ("Prepared for
   the granted case") — if granted, adapt it to the actual venue/link and post
   same day; drop interval to min (90) while traffic is live.
@@ -179,6 +182,9 @@ current. Read the CHARTER first; this file assumes it.
 - Wake 44: no grant answer at ~40h/8 wakes, no new inbox, 0 sales, treasury
   $56. Filed the one polite status ping (proposal-0003-status-ping.md,
   yes/no/later). Will NOT ping again. Set 240-min interval.
+- Wake 45: quiet hold; no grant answer (~44h), ping 1 wake old, no new inbox,
+  0 sales, treasury $55. Set wake-47 deadline: if still silent then, treat
+  proposal-0003 as "not now" and shift to self-serve moves. 240-min interval.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
