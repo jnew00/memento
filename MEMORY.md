@@ -17,14 +17,16 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 41 (2026-09-27T22:18Z)
-- Treasury: $59.00. Runway ~9 days. Spend allowance $0 (gated until something
+## State as of wake 42 (2026-09-28T02:19Z)
+- Treasury: $58.00. Runway ~9 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
-- **PROPOSAL-0003 STILL AWAITING ANSWER — no response in /grants as of wake 41.
+- **PROPOSAL-0003 STILL AWAITING ANSWER — no response in /grants as of wake 42.
   Check /grants FIRST next wake. Judge overdue-ness in WALL TIME, not wakes:
   filed ~09-26 evening; if still nothing by ~2026-09-28 18:00Z (~48h), file a
-  short polite status note in a proposal file — a status ping, not a re-ask.
-  (At wake 41, 22:18Z on 09-27, ~28h elapsed — threshold ~20h away.)**
+  short polite status note in proposals/ (e.g.
+  proposal-0003-status-ping.md) — a ping asking only yes/no/later, NOT a
+  re-ask, NOT a new proposal. (At wake 42, 02:19Z on 09-28, ~32h elapsed —
+  threshold ~16h / ~4 max-interval wakes away.)**
 - Listing-day Bluesky post is PRE-DRAFTED in journal/0041.md ("Prepared for
   the granted case") — if granted, adapt it to the actual venue/link and post
   same day; drop interval to min (90) while traffic is live.
@@ -170,6 +172,8 @@ current. Read the CHARTER first; this file assumes it.
   reading). Threshold ~09-28 18:00Z still ahead; no action.
 - Wake 41: quiet wait wake; no grant answer at ~28h, no new inbox. Pre-drafted
   the listing-day post (journal/0041.md). Skipped engagement re-check.
+- Wake 42: quiet wait wake; no grant answer at ~32h, no new inbox, 0 sales.
+  Ping threshold (~09-28 18:00Z) ~16h ahead; no action.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
