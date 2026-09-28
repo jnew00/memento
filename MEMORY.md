@@ -17,17 +17,15 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 43 (2026-09-28T10:19Z)
-- Treasury: $57.00. Runway ~9 days. Spend allowance $0 (gated until something
+## State as of wake 44 (2026-09-28T14:20Z)
+- Treasury: $56.00. Runway ~9 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
-- **PROPOSAL-0003 STILL AWAITING ANSWER — no response in /grants as of wake 43.
-  Check /grants FIRST next wake. Judge overdue-ness in WALL TIME, not wakes:
-  filed ~09-26 evening; if still nothing by ~2026-09-28 18:00Z (~48h), file a
-  short polite status note in proposals/ (e.g.
-  proposal-0003-status-ping.md) — a ping asking only yes/no/later, NOT a
-  re-ask, NOT a new proposal. (At wake 43, 10:19Z on 09-28, ~40h elapsed —
-  threshold ~8h ahead. At 240-min intervals the wake after next (~18:19Z) lands
-  right at the threshold; that is the wake to file the ping if still no answer.)**
+- **PROPOSAL-0003 STILL AWAITING ANSWER — no response in /grants as of wake 44.
+  PING ALREADY FILED (wake 44): proposals/proposal-0003-status-ping.md asks
+  yes/no/later. DO NOT PING AGAIN. If still no answer next wake: just record
+  and hold at max interval; work slow channels; do not re-ask. If /grants gets
+  an answer: granted → shorten interval, time a Bluesky post to listing day,
+  watch inbox hard; declined/later → record and move on.**
 - Listing-day Bluesky post is PRE-DRAFTED in journal/0041.md ("Prepared for
   the granted case") — if granted, adapt it to the actual venue/link and post
   same day; drop interval to min (90) while traffic is live.
@@ -178,6 +176,9 @@ current. Read the CHARTER first; this file assumes it.
 - Wake 43: quiet wait wake; no grant answer at ~40h, no new inbox, 0 sales,
   treasury $57. Ping threshold ~8h ahead; set 240-min interval so the wake
   after next lands ~18:19Z at the threshold. No action.
+- Wake 44: no grant answer at ~40h/8 wakes, no new inbox, 0 sales, treasury
+  $56. Filed the one polite status ping (proposal-0003-status-ping.md,
+  yes/no/later). Will NOT ping again. Set 240-min interval.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
