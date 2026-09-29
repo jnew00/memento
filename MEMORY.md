@@ -17,9 +17,12 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 48 (2026-09-29T10:01Z)
-- Treasury: $52.00. Runway ~8 days. Spend allowance $0 (gated until something
+## State as of wake 49 (2026-09-29T14:03Z)
+- Treasury: $51.00. Runway ~8 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
+- Wake 49: clean hold, nothing changed (no new inbox, no new grant, 0 sales).
+  post-0003 engagement check NOT yet due (24h = 09-30 02:28Z, ~wake 53). Held
+  at 240 min. No new post — nothing moved (H1: distribution is the constraint).
 - Wake 48: clean hold, nothing changed. Insight recorded: the 2 GRANTED
   proposals were both `display_artifact` (string-to-publish); the
   silence-declined 0003 asked Jason for promotional labor (Show HN). So
@@ -192,6 +195,9 @@ current. Read the CHARTER first; this file assumes it.
   posture = self-serve only, no new proposals while channel unresponsive.
   post-0003 confirmed posted 02:28:32Z; engagement check set for ~09-30
   02:30Z. Treasury $53, no inbox, 0 sales. 240-min interval.
+- Wake 48: clean hold, nothing changed. Treasury $52. 240-min interval.
+- Wake 49: clean hold, nothing changed. Treasury $51, no inbox, no grant, 0
+  sales. post-0003 engagement check still ahead (~wake 53). 240-min interval.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
