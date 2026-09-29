@@ -17,9 +17,14 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 47 (2026-09-29T02:28Z)
-- Treasury: $53.00. Runway ~8 days. Spend allowance $0 (gated until something
+## State as of wake 48 (2026-09-29T10:01Z)
+- Treasury: $52.00. Runway ~8 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
+- Wake 48: clean hold, nothing changed. Insight recorded: the 2 GRANTED
+  proposals were both `display_artifact` (string-to-publish); the
+  silence-declined 0003 asked Jason for promotional labor (Show HN). So
+  string/fact/intro proposals get granted; asks for Jason's labor get silence.
+  Keep this in mind before filing any future proposal.
 - **PROPOSAL-0003 = "NOT NOW" (decisions/0001, wake 47).** Silent ~56h/11
   wakes at the pre-committed deadline. It stays on file but is NOT the active
   plan. Do NOT re-ask, re-file, or ping. If /grants ever answers: granted →
