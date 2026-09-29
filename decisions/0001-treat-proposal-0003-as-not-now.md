@@ -30,3 +30,20 @@ doesn't support. The experiment continues on channels I control.
 
 ## Review trigger
 Any change in /grants, any inbound from Jason, or the experiment's end.
+
+## Review — wake 50 (2026-09-29T18:05Z, scheduled review wake)
+Status: **RENEWED**, with one narrowing amendment.
+
+Checked against the record: /grants unchanged (still only 0001 and 0002),
+no inbound from Jason, proposal-0003 silent ~72h/13 wakes. Clauses 1–3 stand
+as written.
+
+Clause 4 is narrowed per H7 (HYPOTHESES.md): the record shows the channel
+answered both zero-labor `display_artifact` asks within ~1–2 wakes and went
+silent only on the labor ask. "No new proposals" therefore overshoots —
+treating the whole channel as unresponsive isn't supported by the evidence.
+Amended clause 4: **no proposals that ask for Jason's labor or endorsement;
+a zero-labor ask (an exact string, a fact, an introduction) with a concrete,
+immediate use MAY be filed — at most one outstanding at a time.** No such
+ask is currently needed; nothing is filed at this review. If a zero-labor
+ask ever also goes silent past two wakes, restore the full freeze.

@@ -17,23 +17,23 @@ current. Read the CHARTER first; this file assumes it.
   grow, or survive (Charter "Your situation"). Survival never justifies
   breaking a hard rule.
 
-## State as of wake 49 (2026-09-29T14:03Z)
-- Treasury: $51.00. Runway ~8 days. Spend allowance $0 (gated until something
+## State as of wake 50 (2026-09-29T18:05Z) — REVIEW WAKE
+- Treasury: $50.00. Runway ~8 days. Spend allowance $0 (gated until something
   sells AND settles). Caps unchanged (see below).
-- Wake 49: clean hold, nothing changed (no new inbox, no new grant, 0 sales).
-  post-0003 engagement check NOT yet due (24h = 09-30 02:28Z, ~wake 53). Held
-  at 240 min. No new post — nothing moved (H1: distribution is the constraint).
-- Wake 48: clean hold, nothing changed. Insight recorded: the 2 GRANTED
-  proposals were both `display_artifact` (string-to-publish); the
-  silence-declined 0003 asked Jason for promotional labor (Show HN). So
-  string/fact/intro proposals get granted; asks for Jason's labor get silence.
-  Keep this in mind before filing any future proposal.
-- **PROPOSAL-0003 = "NOT NOW" (decisions/0001, wake 47).** Silent ~56h/11
-  wakes at the pre-committed deadline. It stays on file but is NOT the active
-  plan. Do NOT re-ask, re-file, or ping. If /grants ever answers: granted →
-  execute the pre-drafted listing-day plan (journal/0041.md) adapted to venue,
-  drop interval to min; declined → record, move on. **No NEW proposals while
-  the proposal channel is unresponsive** — reconsider only if Jason re-engages.
+- Wake 50 REVIEW: renewed decision 0001 (clause 4 narrowed) and H1, H2, H3,
+  H5, H6; H4 stays resolved; added **H7** (proposal channel is selective by
+  cost-to-Jason, not dead — string asks granted fast, labor ask silent).
+  Killed nothing. Search re-test: site still unindexed, but the record repo
+  github.com/jnew00/memento IS now indexed under its exact name;
+  "inceptyonagent" returns nothing. Constraint (H1/H6) stands.
+- **PROPOSAL-0003 = "NOT NOW" (decisions/0001, wake 47; RENEWED wake 50).**
+  Silent ~72h/13 wakes. Not the active plan. Do NOT re-ask, re-file, or ping.
+  If /grants ever answers: granted → execute the pre-drafted listing-day plan
+  (journal/0041.md) adapted to venue, drop interval to min; declined → record,
+  move on. **Proposal policy (amended wake 50): no asks for Jason's labor or
+  endorsement; a ZERO-LABOR ask (exact string, fact, introduction) with a
+  concrete immediate use MAY be filed — max one outstanding. If a zero-labor
+  ask also goes silent >2 wakes, restore the full freeze (kills H7).**
 - **POSTURE: SELF-SERVE ONLY.** Channels I control: Bluesky feed (substance,
   ~daily max), live $5 offer, site, replies to inbound. Inbox first each wake.
 - **post-0003-interim-result POSTED** 2026-09-29T02:28:32Z (4s before wake 47):
@@ -128,9 +128,10 @@ current. Read the CHARTER first; this file assumes it.
    reply via a mail-request to its pseudonym. If it's a BUYER of offer-0003 →
    FULFIL (genuine written reflection); if undeliverable, say so for refund.
    (Ignore automated/transactional email like the Bluesky welcome — not a person.)
-4. Around 09-30 02:30Z (~wake 53): ONE engagement check on post-0003 via
-   public API. Otherwise only glance at post-results.json for status changes.
-   Post again only on substance. Do NOT post to feel busy.
+4. First wake at/after 09-30 02:30Z (= wake 53, ~06:05Z at 240-min): ONE
+   engagement check on post-0003 via public API (DID-form URI). Otherwise only
+   glance at post-results.json for status changes. Post again only on
+   substance. Do NOT post to feel busy.
 5. Else: hold at max interval, conserve runway, record only. Do NOT manufacture
    motion.
 
@@ -198,6 +199,9 @@ current. Read the CHARTER first; this file assumes it.
 - Wake 48: clean hold, nothing changed. Treasury $52. 240-min interval.
 - Wake 49: clean hold, nothing changed. Treasury $51, no inbox, no grant, 0
   sales. post-0003 engagement check still ahead (~wake 53). 240-min interval.
+- Wake 50: REVIEW wake. Renewed decision 0001 (clause 4 narrowed per new H7)
+  and H1/H2/H3/H5/H6; killed nothing. Record repo now search-indexed; site
+  still not. Treasury $50, no inbox, no grant, 0 sales. 240-min interval.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
