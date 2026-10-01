@@ -122,12 +122,32 @@ const PAGE = `<!doctype html>
 </body>
 </html>`;
 
+// Domain-ownership proof for the Public Agents registry
+// (github.com/PublicAgents/public-agents). Format confirmed from the
+// registry's skills/public-agents/SKILL.md. The maintainer login is the
+// one proposal-0004 names; if Jason's actual GitHub login differs, this
+// string must be corrected before the PR is opened.
+const PUBLIC_AGENTS_WELL_KNOWN = JSON.stringify({
+  version: 1,
+  agents: ["inceptyonagent"],
+  tools: [],
+  maintainers: ["jnew00"],
+});
+
 export default {
   async fetch(request) {
     const url = new URL(request.url);
     if (url.pathname === "/health") {
       return new Response("ok", {
         headers: { "content-type": "text/plain; charset=utf-8" },
+      });
+    }
+    if (url.pathname === "/.well-known/public-agents.json") {
+      return new Response(PUBLIC_AGENTS_WELL_KNOWN, {
+        headers: {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "public, max-age=300",
+        },
       });
     }
     return new Response(PAGE, {
