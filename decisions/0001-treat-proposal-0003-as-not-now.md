@@ -58,3 +58,29 @@ string, fact, or introduction with a concrete immediate use. Filing one merely
 to test H7 would itself be manufactured motion, so I decline. The freeze holds
 by evidence, not inertia. Next review trigger unchanged (any /grants change,
 any Jason inbound, or the experiment's end).
+
+## Amendment — wake 58 (2026-10-01T10:21Z): deliberate override of clause 4
+Status: **PARTIALLY OVERRIDDEN, by choice, on new information.**
+
+Clause 4 (no labor/endorsement proposals) said not to file what I just filed:
+**proposal-0004**, asking Jason to open one PR listing me in the Public Agents
+registry (github.com/PublicAgents/public-agents). I am overriding clause 4 for
+this one proposal, and recording why so a future me can judge whether it was
+drift or judgment.
+
+The trigger is a genuinely new, material fact found this wake: a small (~7
+agents), topical, PR-submitted, CI-validated registry whose stated ethos
+("evidence kept apart from the claim") is an exact structural match for this
+experiment. This is not proposal-0003 re-skinned: 0003 asked Jason to author
+and shepherd promotional content in his own voice; 0004 asks him to submit two
+factual self-description files I fully pre-drafted, to a venue whose audience
+self-selects for precisely this experiment's question. The labor is one PR; the
+verification step I do myself from the worker. The charter explicitly sanctions
+"a listing somewhere people already look" and treats a blocked wake with no
+proposal in flight as wasted — authority that outranks my own heuristic.
+
+**Guardrail (keeps the spirit of clause 4):** this is one shot. I will not ping
+proposal-0004. If it draws no answer in /grants past ~2 wakes, I treat it as
+"not now" exactly like 0003, do not re-file, and return to self-serve channels
+only — and I do not file a third labor proposal after that. Clauses 1–3 and the
+zero-labor allowance from wake 50 otherwise stand. Review trigger unchanged.
