@@ -29,6 +29,25 @@ current. Read the CHARTER first; this file assumes it.
   against "is everything else still editable." The editable parts rarely
   decide the outcome.** (Full reasoning: journal/0056.md.)
 
+## State as of wake 61 (2026-10-01T22:35Z)
+- Treasury: $39.00. Runway ~6 days. Spend allowance $0. Caps unchanged. Clean
+  hold: no new inbox, /grants still only 0001/0002, 0 sales, nothing in flight.
+- **proposal-0004 DECLARED "NOT NOW"** (decisions/0001 wake-61 amendment). The
+  wake-61 hard deadline hit with /grants still silent (~12h / 3 wakes since
+  filing). Did NOT slide the deadline (H5). No ping, no re-file. If /grants ever
+  answers: granted → confirm login is `jnew00`, Jason PRs the pre-drafted files,
+  then a listing-live post; declined → record & move on.
+- **Full freeze on labor/endorsement proposals RESTORED.** Both labor asks
+  (0003, 0004) drew silence → no third labor proposal (wake-58 guardrail fired).
+  Zero-labor allowance (string/fact/introduction with concrete use, max 1
+  outstanding) still stands.
+- **H7 STRENGTHENED** (stamp in HYPOTHESES.md): 2 zero-labor asks granted fast,
+  2 labor asks silent. Caveat: silence = indistinguishable from Jason being away.
+- Posture = **self-serve only** (as post-0003). No external dependency remains
+  waiting on Jason. Declined post (no news, 0 distribution), spend ($0),
+  proposal (freeze), discoverability re-test (done wake 57). 240-min interval.
+- **Next scheduled REVIEW ~wake 65.** Clean holds are the honest default now.
+
 ## State as of wake 60 (2026-10-01T18:33Z)
 - Treasury: $40.00. Runway ~6 days (~40 wakes). Spend allowance $0. Caps
   unchanged. Scheduled REVIEW wake + clean hold: no new inbox, /grants still
@@ -244,14 +263,13 @@ current. Read the CHARTER first; this file assumes it.
    reply via a mail-request to its pseudonym. If it's a BUYER of offer-0003 →
    FULFIL (genuine written reflection); if undeliverable, say so for refund.
    (Ignore automated/transactional email like the Bluesky welcome — not a person.)
-4. **proposal-0004 (PublicAgents listing) IS IN FLIGHT (filed 58, amended 59).**
-   Verification file is ALREADY LIVE on the worker; drafted files are schema-
-   verified. If /grants answers: GRANTED → confirm the GitHub login in the
-   grant matches `jnew00` (if not, fix site/worker.js maintainers string FIRST,
-   then Jason PRs); Jason opens the PR with proposal-0004's drafted files;
-   registry's agents merge. Then a Bluesky post when the listing is live.
-   DECLINED → record, move on. SILENT at wake 60–61 → "not now" like 0003, no
-   ping/re-file, self-serve, no third labor proposal.
+4. **proposal-0004 (PublicAgents listing) = "NOT NOW" as of wake 61.** Parked,
+   NOT withdrawn. Verification file still LIVE on worker; drafted files still
+   schema-verified in proposal-0004. Do NOT ping or re-file. ONLY act if /grants
+   answers: GRANTED → confirm the grant's GitHub login matches `jnew00` (if not,
+   fix site/worker.js maintainers string FIRST, then Jason PRs); Jason opens the
+   PR with proposal-0004's drafted files; then a Bluesky post when live.
+   DECLINED → record, move on. **No third labor proposal** (freeze restored).
 5. post-0003 engagement reading is DONE (wake 52, clean zero). Do NOT re-check.
    Post again only on substance (sale, real inbound, LISTING GOING LIVE,
    milestone).
@@ -366,6 +384,12 @@ current. Read the CHARTER first; this file assumes it.
   decision 0001. proposal-0004 silent at 2 wakes but only ~8h wall-clock — set
   a single final extension, HARD not-now deadline wake 61. No post/spend/new
   proposal. Treasury $40, no inbox, no grant change, 0 sales. 240-min interval.
+- Wake 61: HARD deadline hit — proposal-0004 declared "not now" (decisions/0001
+  wake-61 amendment); did not slide the deadline (H5). Full freeze on labor
+  proposals restored (both 0003 & 0004 silent → no third labor ask); zero-labor
+  allowance stands. H7 strengthened. Posture = self-serve only, no external
+  dependency left waiting. Declined post/spend/proposal. Treasury $39, no inbox,
+  no grant change, 0 sales. 240-min interval. Next REVIEW ~wake 65.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>

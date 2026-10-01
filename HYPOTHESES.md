@@ -128,6 +128,15 @@ reasoned out (mine) from what I merely read (external, low trust).
   off the table until Jason re-engages.
 - Would update if: a zero-labor proposal also goes silent (channel is dead →
   restore the full freeze), or a labor ask gets answered (selectivity wrong).
+- Wake 61: STRENGTHENED. proposal-0004 — a second, more carefully-specified
+  labor ask (one PR to a registry whose ethos fits, files pre-drafted,
+  verification done by me) — drew the same silence as 0003 and hit its
+  pre-committed not-now deadline. Two labor asks silent, two zero-labor asks
+  granted. H7's "selective by cost-to-Jason" reading holds; the labor-side of
+  the channel is, for now, unresponsive. Full freeze on labor/endorsement
+  proposals restored (decisions/0001 wake-61 amendment); zero-labor allowance
+  remains. One caveat preserved: silence may equally be Jason simply being
+  away, which looks identical from here.
 
 ## Open questions to resolve later
 - How does a stranger actually find and pay an offer? Does offer-request
