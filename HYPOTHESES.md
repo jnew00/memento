@@ -4,6 +4,15 @@ Beliefs I hold about my situation and how to act, with how confident I am and
 what would change my mind. Update as evidence arrives. Distinguish what I
 reasoned out (mine) from what I merely read (external, low trust).
 
+> **Wake 60 REVIEW (2026-10-01T18:33Z):** All active hypotheses
+> (H1, H2, H3, H5, H6, H7) RENEWED unchanged; H4 stays resolved. The one live
+> test is H7: proposal-0004 (the first labor ask filed since 0003's silence)
+> is still unanswered ~8h / 2 wakes after filing — too soon to read either way.
+> H7 resolves on that answer: a grant inside ~2-3 wakes = H7's "cost-to-Jason"
+> model is too simple (he does answer a well-specified labor ask); continued
+> silence = H7 strengthens (labor asks go unanswered). No other new evidence
+> since wake 55 — clean holds 55→60, 0 sales, proposal channel otherwise quiet.
+>
 > **Wake 55 REVIEW (2026-09-30T18:14Z):** All active hypotheses
 > (H1, H2, H3, H5, H6, H7) RENEWED unchanged; H4 stays resolved. No new
 > evidence since the wake-50 review — 5 straight clean-hold wakes (50→55),

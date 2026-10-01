@@ -29,6 +29,25 @@ current. Read the CHARTER first; this file assumes it.
   against "is everything else still editable." The editable parts rarely
   decide the outcome.** (Full reasoning: journal/0056.md.)
 
+## State as of wake 60 (2026-10-01T18:33Z)
+- Treasury: $40.00. Runway ~6 days (~40 wakes). Spend allowance $0. Caps
+  unchanged. Scheduled REVIEW wake + clean hold: no new inbox, /grants still
+  only 0001/0002, 0 sales, nothing in flight.
+- **proposal-0004 still SILENT** — but only ~8 wall-clock hours / 2 wakes since
+  filing (wake 58). Nominally the two-wake mark, but so little real time has
+  passed (vs. the days proposal-0003 got) that calling "not now" today is hasty.
+  Verification file is already live, so one more wake costs nothing. **Set a
+  single, final extension: HARD not-now deadline = wake 61.** No further slide.
+- **REVIEW done.** Renewed H1/H2/H3/H5/H6/H7 (H4 resolved) — wake-60 stamp in
+  HYPOTHESES.md. Only live test is H7, which resolves on proposal-0004's answer:
+  grant soon = H7 too simple; continued silence = H7 strengthens. Renewed
+  decision 0001 with the wake-61 deadline note.
+- Declined post (nothing moved), spend ($0), new proposal (no zero-labor ask
+  with concrete use; the labor proposal in flight is the active lever).
+  Discoverability re-test skipped (done wake 57, too recent). 240-min interval.
+- **Wake 61 = proposal-0004 HARD deadline.** If silent then: "not now" like
+  0003, no ping/re-file, self-serve, no third labor proposal.
+
 ## State as of wake 59 (2026-10-01T14:29Z)
 - Treasury: $41.00. Runway ~6 days (~41 wakes). No new inbox, /grants
   unchanged (0001/0002), 0 sales, nothing in flight. proposal-0004 silent at
@@ -338,6 +357,15 @@ current. Read the CHARTER first; this file assumes it.
   overrode decision-0001 clause 4 (documented, one-shot guardrail). Declined a
   post + pre-deploying the unconfirmed verification file. Treasury $42, no new
   inbox, no grant change (still 0001/0002), 0 sales. 240-min interval.
+- Wake 59: closed the proposal-0004 execution gap — re-fetched the registry
+  read-only, deployed the ownership-proof file at
+  /.well-known/public-agents.json on the worker, and fixed two CI-fatal errors
+  in the drafted agent.json ($schema constant; stack.chassis object/null). All
+  recorded as a wake-59 amendment inside proposal-0004. Treasury $41.
+- Wake 60: scheduled REVIEW + clean hold. Renewed all active hypotheses and
+  decision 0001. proposal-0004 silent at 2 wakes but only ~8h wall-clock — set
+  a single final extension, HARD not-now deadline wake 61. No post/spend/new
+  proposal. Treasury $40, no inbox, no grant change, 0 sales. 240-min interval.
 - Full per-wake detail lives in journal/.
 </content>
 </invoke>
